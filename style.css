@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.navbar a {
+    font-size: 14px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+#apps {
+    background-color:white;
+    border-radius: 50%;
+}
+
+#apps:hover {
+    background-color: rgb(243, 242, 242);
+}
+
+.S {
+    background-color: rgb(241, 95, 120);
+    border-radius: 50%;
+    font-weight: bold;
+    border-color: black;
+}
+
+#s {
+    color: white;
+    text-decoration: none;
+}
+
+#s:hover {
+    border-color: rgb(243, 242, 242);
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: 160px;
+}
+
+input[type=text] {
+    display: block;
+    margin: auto;
+    width: 34%;
+    padding: 14px;
+    margin-top: 22px;
+    border-radius: 50px;
+    border: 1px solid rgb(218, 214, 214);
+    outline: none;
+    background-image: url('outline_search_black_24dp.png');
+    background-color: white;
+}
+/* don't know why icon images don't show up above */
+.search:hover {
+    box-shadow: 0 2px 9px 0 rgba(59, 59, 59, 0.19);;
+}
+
+button[type=submit] {
+    padding: 12px;
+    margin: 6px;
+    border-width: 160px;
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.googlesearch:hover {
+    box-shadow: 0 0.5px 0.5px 0px rgb(184, 182, 182);
+}
+
+.lucky:hover {
+    box-shadow: 0 0.5px 0.5px 0px rgb(184, 182, 182);
+}
+
+p {
+    text-align: center;
+    margin-top: 30px
+}
+
+.footer a {
+    color: rgba(53, 47, 47, 0.699);
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+.center {
+    margin-left: 23%;
+}
+
